@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C02215924B5004E5E66 /* AppDelegate.swift */; };
+		14840C05215924B5004E5E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C04215924B5004E5E66 /* ViewController.swift */; };
+		14840C08215924B5004E5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14840C06215924B5004E5E66 /* Main.storyboard */; };
+		14840C0B215924B5004E5E66 /* TinkoffFinance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14840C09215924B5004E5E66 /* TinkoffFinance.xcdatamodeld */; };
+		14840C0D215924B6004E5E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14840C0C215924B6004E5E66 /* Assets.xcassets */; };
+		14840C10215924B6004E5E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14840C0E215924B6004E5E66 /* LaunchScreen.storyboard */; };
+		14840C1B215924B6004E5E66 /* TinkoffFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C1A215924B6004E5E66 /* TinkoffFinanceTests.swift */; };
+		14840C26215924B6004E5E66 /* TinkoffFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C25215924B6004E5E66 /* TinkoffFinanceUITests.swift */; };
+		14AE860921595D5300B4A73B /* TinkoffFinance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14840C09215924B5004E5E66 /* TinkoffFinance.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14840C17215924B6004E5E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14840BF7215924B5004E5E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14840BFE215924B5004E5E66;
+			remoteInfo = TinkoffFinance;
+		};
+		14840C22215924B6004E5E66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14840BF7215924B5004E5E66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14840BFE215924B5004E5E66;
+			remoteInfo = TinkoffFinance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14840BFF215924B5004E5E66 /* TinkoffFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14840C02215924B5004E5E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		14840C04215924B5004E5E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14840C07215924B5004E5E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14840C0A215924B5004E5E66 /* TinkoffFinance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinkoffFinance.xcdatamodel; sourceTree = "<group>"; };
+		14840C0C215924B6004E5E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14840C0F215924B6004E5E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14840C11215924B6004E5E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14840C16215924B6004E5E66 /* TinkoffFinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffFinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14840C1A215924B6004E5E66 /* TinkoffFinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffFinanceTests.swift; sourceTree = "<group>"; };
+		14840C1C215924B6004E5E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14840C21215924B6004E5E66 /* TinkoffFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14840C25215924B6004E5E66 /* TinkoffFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffFinanceUITests.swift; sourceTree = "<group>"; };
+		14840C27215924B6004E5E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE85F6215952DD00B4A73B /* TinkoffFinanceDEBUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinanceDEBUG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14840BFC215924B5004E5E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14840C13215924B6004E5E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14840C1E215924B6004E5E66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE85F3215952DD00B4A73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14840BF6215924B5004E5E66 = {
+			isa = PBXGroup;
+			children = (
+				14840C01215924B5004E5E66 /* TinkoffFinance */,
+				14840C19215924B6004E5E66 /* TinkoffFinanceTests */,
+				14840C24215924B6004E5E66 /* TinkoffFinanceUITests */,
+				14840C00215924B5004E5E66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14840C00215924B5004E5E66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14840BFF215924B5004E5E66 /* TinkoffFinance.app */,
+				14840C16215924B6004E5E66 /* TinkoffFinanceTests.xctest */,
+				14840C21215924B6004E5E66 /* TinkoffFinanceUITests.xctest */,
+				14AE85F6215952DD00B4A73B /* TinkoffFinanceDEBUG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14840C01215924B5004E5E66 /* TinkoffFinance */ = {
+			isa = PBXGroup;
+			children = (
+				14840C02215924B5004E5E66 /* AppDelegate.swift */,
+				14840C04215924B5004E5E66 /* ViewController.swift */,
+				14840C06215924B5004E5E66 /* Main.storyboard */,
+				14840C0C215924B6004E5E66 /* Assets.xcassets */,
+				14840C0E215924B6004E5E66 /* LaunchScreen.storyboard */,
+				14840C11215924B6004E5E66 /* Info.plist */,
+				14840C09215924B5004E5E66 /* TinkoffFinance.xcdatamodeld */,
+			);
+			path = TinkoffFinance;
+			sourceTree = "<group>";
+		};
+		14840C19215924B6004E5E66 /* TinkoffFinanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				14840C1A215924B6004E5E66 /* TinkoffFinanceTests.swift */,
+				14840C1C215924B6004E5E66 /* Info.plist */,
+			);
+			path = TinkoffFinanceTests;
+			sourceTree = "<group>";
+		};
+		14840C24215924B6004E5E66 /* TinkoffFinanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14840C25215924B6004E5E66 /* TinkoffFinanceUITests.swift */,
+				14840C27215924B6004E5E66 /* Info.plist */,
+			);
+			path = TinkoffFinanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14840BFE215924B5004E5E66 /* TinkoffFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14840C2A215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinance" */;
+			buildPhases = (
+				14840BFB215924B5004E5E66 /* Sources */,
+				14840BFC215924B5004E5E66 /* Frameworks */,
+				14840BFD215924B5004E5E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinkoffFinance;
+			productName = TinkoffFinance;
+			productReference = 14840BFF215924B5004E5E66 /* TinkoffFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14840C15215924B6004E5E66 /* TinkoffFinanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14840C2D215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinanceTests" */;
+			buildPhases = (
+				14840C12215924B6004E5E66 /* Sources */,
+				14840C13215924B6004E5E66 /* Frameworks */,
+				14840C14215924B6004E5E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14840C18215924B6004E5E66 /* PBXTargetDependency */,
+			);
+			name = TinkoffFinanceTests;
+			productName = TinkoffFinanceTests;
+			productReference = 14840C16215924B6004E5E66 /* TinkoffFinanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14840C20215924B6004E5E66 /* TinkoffFinanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14840C30215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinanceUITests" */;
+			buildPhases = (
+				14840C1D215924B6004E5E66 /* Sources */,
+				14840C1E215924B6004E5E66 /* Frameworks */,
+				14840C1F215924B6004E5E66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14840C23215924B6004E5E66 /* PBXTargetDependency */,
+			);
+			name = TinkoffFinanceUITests;
+			productName = TinkoffFinanceUITests;
+			productReference = 14840C21215924B6004E5E66 /* TinkoffFinanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		14AE85F5215952DD00B4A73B /* TinkoffFinanceDEBUG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14AE8607215952DF00B4A73B /* Build configuration list for PBXNativeTarget "TinkoffFinanceDEBUG" */;
+			buildPhases = (
+				14AE85F2215952DD00B4A73B /* Sources */,
+				14AE85F3215952DD00B4A73B /* Frameworks */,
+				14AE85F4215952DD00B4A73B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinkoffFinanceDEBUG;
+			productName = TinkoffFinanceDEBUG;
+			productReference = 14AE85F6215952DD00B4A73B /* TinkoffFinanceDEBUG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14840BF7215924B5004E5E66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = X;
+				TargetAttributes = {
+					14840BFE215924B5004E5E66 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					14840C15215924B6004E5E66 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 14840BFE215924B5004E5E66;
+					};
+					14840C20215924B6004E5E66 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 14840BFE215924B5004E5E66;
+					};
+					14AE85F5215952DD00B4A73B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 14840BFA215924B5004E5E66 /* Build configuration list for PBXProject "TinkoffFinance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14840BF6215924B5004E5E66;
+			productRefGroup = 14840C00215924B5004E5E66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14840BFE215924B5004E5E66 /* TinkoffFinance */,
+				14840C15215924B6004E5E66 /* TinkoffFinanceTests */,
+				14840C20215924B6004E5E66 /* TinkoffFinanceUITests */,
+				14AE85F5215952DD00B4A73B /* TinkoffFinanceDEBUG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14840BFD215924B5004E5E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14840C10215924B6004E5E66 /* LaunchScreen.storyboard in Resources */,
+				14840C0D215924B6004E5E66 /* Assets.xcassets in Resources */,
+				14840C08215924B5004E5E66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14840C14215924B6004E5E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14840C1F215924B6004E5E66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE85F4215952DD00B4A73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14840BFB215924B5004E5E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14840C0B215924B5004E5E66 /* TinkoffFinance.xcdatamodeld in Sources */,
+				14840C05215924B5004E5E66 /* ViewController.swift in Sources */,
+				14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14840C12215924B6004E5E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14840C1B215924B6004E5E66 /* TinkoffFinanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14840C1D215924B6004E5E66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14840C26215924B6004E5E66 /* TinkoffFinanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14AE85F2215952DD00B4A73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14AE860921595D5300B4A73B /* TinkoffFinance.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14840C18215924B6004E5E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14840BFE215924B5004E5E66 /* TinkoffFinance */;
+			targetProxy = 14840C17215924B6004E5E66 /* PBXContainerItemProxy */;
+		};
+		14840C23215924B6004E5E66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14840BFE215924B5004E5E66 /* TinkoffFinance */;
+			targetProxy = 14840C22215924B6004E5E66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14840C06215924B5004E5E66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14840C07215924B5004E5E66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14840C0E215924B6004E5E66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14840C0F215924B6004E5E66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14840C28215924B6004E5E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14840C29215924B6004E5E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14840C2B215924B6004E5E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = TinkoffFinance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.x-robotics12312412";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		14840C2C215924B6004E5E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = TinkoffFinance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.x-robotics12312412";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		14840C2E215924B6004E5E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = TinkoffFinanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xrobotics.TinkoffFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinkoffFinance.app/TinkoffFinance";
+			};
+			name = Debug;
+		};
+		14840C2F215924B6004E5E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = TinkoffFinanceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xrobotics.TinkoffFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinkoffFinance.app/TinkoffFinance";
+			};
+			name = Release;
+		};
+		14840C31215924B6004E5E66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = TinkoffFinanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xrobotics.TinkoffFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinkoffFinance;
+			};
+			name = Debug;
+		};
+		14840C32215924B6004E5E66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = TinkoffFinanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xrobotics.TinkoffFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinkoffFinance;
+			};
+			name = Release;
+		};
+		14AE8605215952DF00B4A73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = "$(SRCROOT)/TinkoffFinance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xrobotics.TinkoffFinanceDEBUG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = DEBUG;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		14AE8606215952DF00B4A73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28XXG6S5AU;
+				INFOPLIST_FILE = "$(SRCROOT)/TinkoffFinance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.xrobotics.TinkoffFinanceDEBUG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14840BFA215924B5004E5E66 /* Build configuration list for PBXProject "TinkoffFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14840C28215924B6004E5E66 /* Debug */,
+				14840C29215924B6004E5E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14840C2A215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14840C2B215924B6004E5E66 /* Debug */,
+				14840C2C215924B6004E5E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14840C2D215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14840C2E215924B6004E5E66 /* Debug */,
+				14840C2F215924B6004E5E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14840C30215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14840C31215924B6004E5E66 /* Debug */,
+				14840C32215924B6004E5E66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14AE8607215952DF00B4A73B /* Build configuration list for PBXNativeTarget "TinkoffFinanceDEBUG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14AE8605215952DF00B4A73B /* Debug */,
+				14AE8606215952DF00B4A73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14840C09215924B5004E5E66 /* TinkoffFinance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14840C0A215924B5004E5E66 /* TinkoffFinance.xcdatamodel */,
+			);
+			currentVersion = 14840C0A215924B5004E5E66 /* TinkoffFinance.xcdatamodel */;
+			path = TinkoffFinance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14840BF7215924B5004E5E66 /* Project object */;
+}
