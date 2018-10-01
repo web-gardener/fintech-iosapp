@@ -29,9 +29,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="XfE-hJ-KWq"/>
                                 </constraints>
-                                <state key="normal" title="Редактировать">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <state key="normal" title="Редактировать"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Denis Nefedov" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17o-0Y-TF8">
                                 <rect key="frame" x="16" y="340" width="288" height="30"/>
