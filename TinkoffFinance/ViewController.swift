@@ -10,10 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
-   
+    struct DesignConstants{
+        static let profileImageRadius = CGFloat(40)
+        static let bordedButtonRadius = CGFloat(16)
+        static let bordedButtonBorderWidth = CGFloat(1)
+    }
+    
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var setPhotoButton: UIButton!
+    @IBOutlet weak var profileNameLabel: UILabel!
+    @IBOutlet weak var profileDescLabel: UILabel!
+    @IBOutlet weak var profileReductButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print(#function)
+        self.profileImage.layer.cornerRadius = CGFloat(25)
+        self.profileImage.clipsToBounds = true;
     }
     
     override func viewWillAppear(_ animated: Bool) {
