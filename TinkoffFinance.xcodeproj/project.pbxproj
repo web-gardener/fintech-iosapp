@@ -12,6 +12,7 @@
 		14556481216AA7DB009D63AE /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556480216AA7DB009D63AE /* ConversationListViewController.swift */; };
 		14556483216AA992009D63AE /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556482216AA992009D63AE /* MessageModel.swift */; };
 		14556486216AA9F1009D63AE /* MessageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556485216AA9F1009D63AE /* MessageInterface.swift */; };
+		1455648B216AC160009D63AE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455648A216AC160009D63AE /* SWRevealViewController.m */; };
 		14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C02215924B5004E5E66 /* AppDelegate.swift */; };
 		14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C04215924B5004E5E66 /* ProfileVC.swift */; };
 		14840C08215924B5004E5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14840C06215924B5004E5E66 /* Main.storyboard */; };
@@ -52,6 +53,9 @@
 		14556480216AA7DB009D63AE /* ConversationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		14556482216AA992009D63AE /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		14556485216AA9F1009D63AE /* MessageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInterface.swift; sourceTree = "<group>"; };
+		14556488216AC15E009D63AE /* TinkoffFinance-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinkoffFinance-Bridging-Header.h"; sourceTree = "<group>"; };
+		14556489216AC15F009D63AE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1455648A216AC160009D63AE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		14840BFF215924B5004E5E66 /* TinkoffFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14840C02215924B5004E5E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		14840C04215924B5004E5E66 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -150,6 +154,17 @@
 			path = Interfaces;
 			sourceTree = "<group>";
 		};
+		14556487216ABFBE009D63AE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				14556489216AC15F009D63AE /* SWRevealViewController.h */,
+				1455648A216AC160009D63AE /* SWRevealViewController.m */,
+				14840C02215924B5004E5E66 /* AppDelegate.swift */,
+				14556488216AC15E009D63AE /* TinkoffFinance-Bridging-Header.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		14840BF6215924B5004E5E66 = {
 			isa = PBXGroup;
 			children = (
@@ -176,10 +191,10 @@
 		14840C01215924B5004E5E66 /* TinkoffFinance */ = {
 			isa = PBXGroup;
 			children = (
+				14556487216ABFBE009D63AE /* Utils */,
 				1455647F216A9159009D63AE /* Controller */,
 				1455647D216A9143009D63AE /* Model */,
 				1455647C216A913B009D63AE /* View */,
-				14840C02215924B5004E5E66 /* AppDelegate.swift */,
 				14840C06215924B5004E5E66 /* Main.storyboard */,
 				14840C0C215924B6004E5E66 /* Assets.xcassets */,
 				14840C0E215924B6004E5E66 /* LaunchScreen.storyboard */,
@@ -323,6 +338,7 @@
 				TargetAttributes = {
 					14840BFE215924B5004E5E66 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					14840C15215924B6004E5E66 = {
 						CreatedOnToolsVersion = 10.0;
@@ -501,6 +517,7 @@
 				14556483216AA992009D63AE /* MessageModel.swift in Sources */,
 				1455645B2162B262009D63AE /* setPhotoButton.swift in Sources */,
 				14556481216AA7DB009D63AE /* ConversationListViewController.swift in Sources */,
+				1455648B216AC160009D63AE /* SWRevealViewController.m in Sources */,
 				14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */,
 				14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */,
 				14556486216AA9F1009D63AE /* MessageInterface.swift in Sources */,
@@ -687,6 +704,7 @@
 			baseConfigurationReference = 9B5528D52DA1A646634600EC /* Pods-TinkoffFinance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28XXG6S5AU;
 				INFOPLIST_FILE = TinkoffFinance/Info.plist;
@@ -699,6 +717,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "TinkoffFinance/Utils/TinkoffFinance-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -709,6 +729,7 @@
 			baseConfigurationReference = 8483E781E544BD5413AC5EC5 /* Pods-TinkoffFinance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 28XXG6S5AU;
 				INFOPLIST_FILE = TinkoffFinance/Info.plist;
@@ -719,6 +740,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.x-robotics12312412";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TinkoffFinance/Utils/TinkoffFinance-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
