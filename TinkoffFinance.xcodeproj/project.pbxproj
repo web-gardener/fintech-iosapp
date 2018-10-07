@@ -21,6 +21,10 @@
 		14840C1B215924B6004E5E66 /* TinkoffFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C1A215924B6004E5E66 /* TinkoffFinanceTests.swift */; };
 		14840C26215924B6004E5E66 /* TinkoffFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C25215924B6004E5E66 /* TinkoffFinanceUITests.swift */; };
 		14AE860921595D5300B4A73B /* TinkoffFinance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14840C09215924B5004E5E66 /* TinkoffFinance.xcdatamodeld */; };
+		1829B5113719610ECED3E535 /* Pods_TinkoffFinanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DDF4687A71C8699A8C4F85 /* Pods_TinkoffFinanceUITests.framework */; };
+		184BBA20E2B2E211D889A96B /* Pods_TinkoffFinanceDEBUG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8D632FF2CA619578DFECD73 /* Pods_TinkoffFinanceDEBUG.framework */; };
+		341A070E5208AF755EA1F578 /* Pods_TinkoffFinanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E89DABFFF30D161A2C8ACE /* Pods_TinkoffFinanceTests.framework */; };
+		450F0E28A382C2A3C6556609 /* Pods_TinkoffFinance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104F5B7D00B71F28029E81EE /* Pods_TinkoffFinance.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03D3638FC5CDBCE4D0E110CF /* Pods-TinkoffFinanceDEBUG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinanceDEBUG.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinanceDEBUG/Pods-TinkoffFinanceDEBUG.release.xcconfig"; sourceTree = "<group>"; };
+		104F5B7D00B71F28029E81EE /* Pods_TinkoffFinance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinkoffFinance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1455645A2162B262009D63AE /* setPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setPhotoButton.swift; sourceTree = "<group>"; };
 		1455645C2162B32D009D63AE /* profileReductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileReductButton.swift; sourceTree = "<group>"; };
 		14556480216AA7DB009D63AE /* ConversationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +67,16 @@
 		14840C25215924B6004E5E66 /* TinkoffFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffFinanceUITests.swift; sourceTree = "<group>"; };
 		14840C27215924B6004E5E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14AE85F6215952DD00B4A73B /* TinkoffFinanceDEBUG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinanceDEBUG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F088883FB6B61068FA24E3 /* Pods-TinkoffFinanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinanceUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinanceUITests/Pods-TinkoffFinanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F7BEFA6566ABFDAA872131E /* Pods-TinkoffFinanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinanceTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinanceTests/Pods-TinkoffFinanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		41CBD4B9312F611E6DC9507C /* Pods-TinkoffFinanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinanceTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinanceTests/Pods-TinkoffFinanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DC8F5D358214E7D0574F8D5 /* Pods-TinkoffFinanceDEBUG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinanceDEBUG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinanceDEBUG/Pods-TinkoffFinanceDEBUG.debug.xcconfig"; sourceTree = "<group>"; };
+		8483E781E544BD5413AC5EC5 /* Pods-TinkoffFinance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinance.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinance/Pods-TinkoffFinance.release.xcconfig"; sourceTree = "<group>"; };
+		9B5528D52DA1A646634600EC /* Pods-TinkoffFinance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinance/Pods-TinkoffFinance.debug.xcconfig"; sourceTree = "<group>"; };
+		A8D632FF2CA619578DFECD73 /* Pods_TinkoffFinanceDEBUG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinkoffFinanceDEBUG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9DDF4687A71C8699A8C4F85 /* Pods_TinkoffFinanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinkoffFinanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DD1B39AE877C51BE933D5E /* Pods-TinkoffFinanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinkoffFinanceUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinkoffFinanceUITests/Pods-TinkoffFinanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4E89DABFFF30D161A2C8ACE /* Pods_TinkoffFinanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinkoffFinanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450F0E28A382C2A3C6556609 /* Pods_TinkoffFinance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				341A070E5208AF755EA1F578 /* Pods_TinkoffFinanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1829B5113719610ECED3E535 /* Pods_TinkoffFinanceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184BBA20E2B2E211D889A96B /* Pods_TinkoffFinanceDEBUG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +157,8 @@
 				14840C19215924B6004E5E66 /* TinkoffFinanceTests */,
 				14840C24215924B6004E5E66 /* TinkoffFinanceUITests */,
 				14840C00215924B5004E5E66 /* Products */,
+				E968F06D9ABCF70890B1ABF9 /* Pods */,
+				5F8BD2EFBE20A0BBD3361211 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -185,6 +207,32 @@
 			path = TinkoffFinanceUITests;
 			sourceTree = "<group>";
 		};
+		5F8BD2EFBE20A0BBD3361211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				104F5B7D00B71F28029E81EE /* Pods_TinkoffFinance.framework */,
+				A8D632FF2CA619578DFECD73 /* Pods_TinkoffFinanceDEBUG.framework */,
+				E4E89DABFFF30D161A2C8ACE /* Pods_TinkoffFinanceTests.framework */,
+				C9DDF4687A71C8699A8C4F85 /* Pods_TinkoffFinanceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E968F06D9ABCF70890B1ABF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B5528D52DA1A646634600EC /* Pods-TinkoffFinance.debug.xcconfig */,
+				8483E781E544BD5413AC5EC5 /* Pods-TinkoffFinance.release.xcconfig */,
+				7DC8F5D358214E7D0574F8D5 /* Pods-TinkoffFinanceDEBUG.debug.xcconfig */,
+				03D3638FC5CDBCE4D0E110CF /* Pods-TinkoffFinanceDEBUG.release.xcconfig */,
+				3F7BEFA6566ABFDAA872131E /* Pods-TinkoffFinanceTests.debug.xcconfig */,
+				41CBD4B9312F611E6DC9507C /* Pods-TinkoffFinanceTests.release.xcconfig */,
+				16F088883FB6B61068FA24E3 /* Pods-TinkoffFinanceUITests.debug.xcconfig */,
+				D3DD1B39AE877C51BE933D5E /* Pods-TinkoffFinanceUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -192,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14840C2A215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinance" */;
 			buildPhases = (
+				4CC64CFF484FDC3C0B2EEB60 /* [CP] Check Pods Manifest.lock */,
 				14840BFB215924B5004E5E66 /* Sources */,
 				14840BFC215924B5004E5E66 /* Frameworks */,
 				14840BFD215924B5004E5E66 /* Resources */,
+				7652FC235753F79525D3A7E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,6 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14840C2D215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinanceTests" */;
 			buildPhases = (
+				C299FCCD4CB48E900AE4C550 /* [CP] Check Pods Manifest.lock */,
 				14840C12215924B6004E5E66 /* Sources */,
 				14840C13215924B6004E5E66 /* Frameworks */,
 				14840C14215924B6004E5E66 /* Resources */,
@@ -227,6 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14840C30215924B6004E5E66 /* Build configuration list for PBXNativeTarget "TinkoffFinanceUITests" */;
 			buildPhases = (
+				F0D92463E5465D3F8A0AC57F /* [CP] Check Pods Manifest.lock */,
 				14840C1D215924B6004E5E66 /* Sources */,
 				14840C1E215924B6004E5E66 /* Frameworks */,
 				14840C1F215924B6004E5E66 /* Resources */,
@@ -245,6 +297,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14AE8607215952DF00B4A73B /* Build configuration list for PBXNativeTarget "TinkoffFinanceDEBUG" */;
 			buildPhases = (
+				F9778F8A61252C7FE85126D4 /* [CP] Check Pods Manifest.lock */,
 				14AE85F2215952DD00B4A73B /* Sources */,
 				14AE85F3215952DD00B4A73B /* Frameworks */,
 				14AE85F4215952DD00B4A73B /* Resources */,
@@ -338,6 +391,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CC64CFF484FDC3C0B2EEB60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinkoffFinance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7652FC235753F79525D3A7E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TinkoffFinance/Pods-TinkoffFinance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinkoffFinance/Pods-TinkoffFinance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C299FCCD4CB48E900AE4C550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinkoffFinanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D92463E5465D3F8A0AC57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinkoffFinanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9778F8A61252C7FE85126D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TinkoffFinanceDEBUG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		14840BFB215924B5004E5E66 /* Sources */ = {
@@ -532,6 +684,7 @@
 		};
 		14840C2B215924B6004E5E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5528D52DA1A646634600EC /* Pods-TinkoffFinance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +706,7 @@
 		};
 		14840C2C215924B6004E5E66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8483E781E544BD5413AC5EC5 /* Pods-TinkoffFinance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -572,6 +726,7 @@
 		};
 		14840C2E215924B6004E5E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F7BEFA6566ABFDAA872131E /* Pods-TinkoffFinanceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -593,6 +748,7 @@
 		};
 		14840C2F215924B6004E5E66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CBD4B9312F611E6DC9507C /* Pods-TinkoffFinanceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -614,6 +770,7 @@
 		};
 		14840C31215924B6004E5E66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F088883FB6B61068FA24E3 /* Pods-TinkoffFinanceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -634,6 +791,7 @@
 		};
 		14840C32215924B6004E5E66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3DD1B39AE877C51BE933D5E /* Pods-TinkoffFinanceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -654,6 +812,7 @@
 		};
 		14AE8605215952DF00B4A73B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC8F5D358214E7D0574F8D5 /* Pods-TinkoffFinanceDEBUG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -676,6 +835,7 @@
 		};
 		14AE8606215952DF00B4A73B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03D3638FC5CDBCE4D0E110CF /* Pods-TinkoffFinanceDEBUG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
