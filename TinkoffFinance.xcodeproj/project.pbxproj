@@ -10,7 +10,7 @@
 		1455645B2162B262009D63AE /* setPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455645A2162B262009D63AE /* setPhotoButton.swift */; };
 		1455645D2162B32D009D63AE /* profileReductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455645C2162B32D009D63AE /* profileReductButton.swift */; };
 		14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C02215924B5004E5E66 /* AppDelegate.swift */; };
-		14840C05215924B5004E5E66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C04215924B5004E5E66 /* ViewController.swift */; };
+		14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C04215924B5004E5E66 /* ProfileVC.swift */; };
 		14840C08215924B5004E5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14840C06215924B5004E5E66 /* Main.storyboard */; };
 		14840C0B215924B5004E5E66 /* TinkoffFinance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14840C09215924B5004E5E66 /* TinkoffFinance.xcdatamodeld */; };
 		14840C0D215924B6004E5E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14840C0C215924B6004E5E66 /* Assets.xcassets */; };
@@ -42,7 +42,7 @@
 		1455645C2162B32D009D63AE /* profileReductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileReductButton.swift; sourceTree = "<group>"; };
 		14840BFF215924B5004E5E66 /* TinkoffFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14840C02215924B5004E5E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		14840C04215924B5004E5E66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14840C04215924B5004E5E66 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		14840C07215924B5004E5E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14840C0A215924B5004E5E66 /* TinkoffFinance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinkoffFinance.xcdatamodel; sourceTree = "<group>"; };
 		14840C0C215924B6004E5E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -89,6 +89,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1455647C216A913B009D63AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1455645C2162B32D009D63AE /* profileReductButton.swift */,
+				1455645A2162B262009D63AE /* setPhotoButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1455647D216A9143009D63AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1455647F216A9159009D63AE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14840C04215924B5004E5E66 /* ProfileVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		14840BF6215924B5004E5E66 = {
 			isa = PBXGroup;
 			children = (
@@ -113,13 +137,13 @@
 		14840C01215924B5004E5E66 /* TinkoffFinance */ = {
 			isa = PBXGroup;
 			children = (
+				1455647F216A9159009D63AE /* Controller */,
+				1455647D216A9143009D63AE /* Model */,
+				1455647C216A913B009D63AE /* View */,
 				14840C02215924B5004E5E66 /* AppDelegate.swift */,
-				14840C04215924B5004E5E66 /* ViewController.swift */,
 				14840C06215924B5004E5E66 /* Main.storyboard */,
 				14840C0C215924B6004E5E66 /* Assets.xcassets */,
 				14840C0E215924B6004E5E66 /* LaunchScreen.storyboard */,
-				1455645A2162B262009D63AE /* setPhotoButton.swift */,
-				1455645C2162B32D009D63AE /* profileReductButton.swift */,
 				14840C11215924B6004E5E66 /* Info.plist */,
 				14840C09215924B5004E5E66 /* TinkoffFinance.xcdatamodeld */,
 			);
@@ -306,7 +330,7 @@
 				14840C0B215924B5004E5E66 /* TinkoffFinance.xcdatamodeld in Sources */,
 				1455645D2162B32D009D63AE /* profileReductButton.swift in Sources */,
 				1455645B2162B262009D63AE /* setPhotoButton.swift in Sources */,
-				14840C05215924B5004E5E66 /* ViewController.swift in Sources */,
+				14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */,
 				14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
