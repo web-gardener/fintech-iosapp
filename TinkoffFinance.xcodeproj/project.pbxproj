@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1455645B2162B262009D63AE /* setPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455645A2162B262009D63AE /* setPhotoButton.swift */; };
 		1455645D2162B32D009D63AE /* profileReductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455645C2162B32D009D63AE /* profileReductButton.swift */; };
+		14556481216AA7DB009D63AE /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556480216AA7DB009D63AE /* ConversationListViewController.swift */; };
+		14556483216AA992009D63AE /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556482216AA992009D63AE /* MessageModel.swift */; };
+		14556486216AA9F1009D63AE /* MessageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556485216AA9F1009D63AE /* MessageInterface.swift */; };
 		14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C02215924B5004E5E66 /* AppDelegate.swift */; };
 		14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C04215924B5004E5E66 /* ProfileVC.swift */; };
 		14840C08215924B5004E5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14840C06215924B5004E5E66 /* Main.storyboard */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		1455645A2162B262009D63AE /* setPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setPhotoButton.swift; sourceTree = "<group>"; };
 		1455645C2162B32D009D63AE /* profileReductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileReductButton.swift; sourceTree = "<group>"; };
+		14556480216AA7DB009D63AE /* ConversationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
+		14556482216AA992009D63AE /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
+		14556485216AA9F1009D63AE /* MessageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInterface.swift; sourceTree = "<group>"; };
 		14840BFF215924B5004E5E66 /* TinkoffFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14840C02215924B5004E5E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		14840C04215924B5004E5E66 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -101,6 +107,8 @@
 		1455647D216A9143009D63AE /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				14556484216AA9CC009D63AE /* Interfaces */,
+				14556482216AA992009D63AE /* MessageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -109,8 +117,17 @@
 			isa = PBXGroup;
 			children = (
 				14840C04215924B5004E5E66 /* ProfileVC.swift */,
+				14556480216AA7DB009D63AE /* ConversationListViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		14556484216AA9CC009D63AE /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				14556485216AA9F1009D63AE /* MessageInterface.swift */,
+			);
+			path = Interfaces;
 			sourceTree = "<group>";
 		};
 		14840BF6215924B5004E5E66 = {
@@ -329,9 +346,12 @@
 			files = (
 				14840C0B215924B5004E5E66 /* TinkoffFinance.xcdatamodeld in Sources */,
 				1455645D2162B32D009D63AE /* profileReductButton.swift in Sources */,
+				14556483216AA992009D63AE /* MessageModel.swift in Sources */,
 				1455645B2162B262009D63AE /* setPhotoButton.swift in Sources */,
+				14556481216AA7DB009D63AE /* ConversationListViewController.swift in Sources */,
 				14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */,
 				14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */,
+				14556486216AA9F1009D63AE /* MessageInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
