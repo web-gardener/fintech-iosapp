@@ -18,7 +18,13 @@ class ConversationViewController: UIViewController {
 
        /* Метод для менюшки сбоку
           
-         */ menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+         */
+        menuBtn.addTarget(self.revealViewController(), action: #selector(SWRevealViewController.revealToggle(_:)), for: .touchUpInside)
+        // метод для сдвига вбок
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        // метод для тапа, чтобы вернуться обратно
+        self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer())
+        
     }
 
 }
