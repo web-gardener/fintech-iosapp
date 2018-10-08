@@ -86,10 +86,10 @@
             </objects>
             <point key="canvasLocation" x="3431" y="373"/>
         </scene>
-        <!--View Controller-->
+        <!--Reveal View Controller-->
         <scene sceneID="4Y3-rh-t6P">
             <objects>
-                <viewController id="BWh-go-Mla" sceneMemberID="viewController">
+                <viewController id="BWh-go-Mla" customClass="SWRevealViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="j5d-yy-yco">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,6 +149,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ifY-AP-EcD"/>
                     </view>
+                    <connections>
+                        <outlet property="menuBtn" destination="PZI-5p-FPr" id="Rjx-Py-uW6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2gh-J7-q6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
