@@ -14,6 +14,7 @@
 		1455648B216AC160009D63AE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455648A216AC160009D63AE /* SWRevealViewController.m */; };
 		1455648D216AD3F2009D63AE /* ConversationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455648C216AD3F2009D63AE /* ConversationsListViewController.swift */; };
 		1455648F216AD4A6009D63AE /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455648E216AD4A6009D63AE /* ConversationViewController.swift */; };
+		14556491216ADF73009D63AE /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556490216ADF73009D63AE /* GradientView.swift */; };
 		14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C02215924B5004E5E66 /* AppDelegate.swift */; };
 		14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C04215924B5004E5E66 /* ProfileVC.swift */; };
 		14840C08215924B5004E5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14840C06215924B5004E5E66 /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		1455648A216AC160009D63AE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		1455648C216AD3F2009D63AE /* ConversationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsListViewController.swift; sourceTree = "<group>"; };
 		1455648E216AD4A6009D63AE /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		14556490216ADF73009D63AE /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		14840BFF215924B5004E5E66 /* TinkoffFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14840C02215924B5004E5E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		14840C04215924B5004E5E66 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				1455645C2162B32D009D63AE /* profileReductButton.swift */,
 				1455645A2162B262009D63AE /* setPhotoButton.swift */,
+				14556490216ADF73009D63AE /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 			files = (
 				14840C0B215924B5004E5E66 /* TinkoffFinance.xcdatamodeld in Sources */,
 				1455645D2162B32D009D63AE /* profileReductButton.swift in Sources */,
+				14556491216ADF73009D63AE /* GradientView.swift in Sources */,
 				1455648F216AD4A6009D63AE /* ConversationViewController.swift in Sources */,
 				1455648D216AD3F2009D63AE /* ConversationsListViewController.swift in Sources */,
 				14556483216AA992009D63AE /* MessageModel.swift in Sources */,

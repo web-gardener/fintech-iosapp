@@ -131,7 +131,8 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.29019607843137252" green="0.30196078431372547" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.84705882352941175" blue="0.015686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.71037127049293392" green="0.9064610757803554" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="77" id="Q0g-Kj-KyC"/>
                                     <constraint firstItem="PZI-5p-FPr" firstAttribute="leading" secondItem="sOi-t6-vDd" secondAttribute="leading" constant="12" id="UYd-yG-qTo"/>
@@ -161,19 +162,67 @@
         <scene sceneID="NlI-8F-qPT">
             <objects>
                 <viewController id="ZY7-oH-aj0" customClass="ConversationsListViewController" customModule="TinkoffFinance" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="6dg-SR-xOD">
+                    <view key="view" contentMode="scaleToFill" id="6dg-SR-xOD" customClass="GradientView" customModule="TinkoffFinance" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tinkoff App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXg-LY-8iu">
+                                <rect key="frame" x="20" y="45" width="115" height="26"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4e-LW-nza">
+                                <rect key="frame" x="20" y="91" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="k3c-Ql-0nB">
+                                <rect key="frame" x="16" y="458" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeo-Nf-IXb">
+                                <rect key="frame" x="99" y="477" width="53" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hmL-Lc-DbH">
+                                <rect key="frame" x="226" y="90.5" width="22" height="22"/>
+                                <state key="normal" image="addChatButton"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="KnM-PW-Hnx" firstAttribute="trailing" secondItem="hmL-Lc-DbH" secondAttribute="trailing" constant="72" id="4dM-6d-3l4"/>
+                            <constraint firstItem="E4e-LW-nza" firstAttribute="leading" secondItem="KnM-PW-Hnx" secondAttribute="leading" constant="20" id="5fV-6d-aU7"/>
+                            <constraint firstItem="E4e-LW-nza" firstAttribute="top" secondItem="rXg-LY-8iu" secondAttribute="bottom" constant="20" id="D81-jv-0l8"/>
+                            <constraint firstItem="hmL-Lc-DbH" firstAttribute="centerY" secondItem="E4e-LW-nza" secondAttribute="centerY" id="FSO-il-Bpy"/>
+                            <constraint firstItem="rXg-LY-8iu" firstAttribute="leading" secondItem="KnM-PW-Hnx" secondAttribute="leading" constant="20" id="ebO-00-Gwr"/>
+                            <constraint firstItem="rXg-LY-8iu" firstAttribute="top" secondItem="KnM-PW-Hnx" secondAttribute="top" constant="25" id="t24-Ec-Oxm"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="KnM-PW-Hnx"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="bottomColor">
+                                <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o5T-u3-dYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2444" y="-27"/>
+            <point key="canvasLocation" x="2443.125" y="-27.464788732394368"/>
         </scene>
     </scenes>
     <resources>
+        <image name="ProfileIcon" width="192" height="192"/>
+        <image name="addChatButton" width="22" height="22"/>
         <image name="chatBurger" width="40" height="40"/>
         <image name="placeholder-user" width="200" height="200"/>
         <image name="slr-camera-2" width="85" height="85"/>
