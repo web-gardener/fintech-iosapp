@@ -479,6 +479,11 @@ static CGFloat scaledValue( CGFloat v1, CGFloat min2, CGFloat max2, CGFloat min1
     return _view.bounds;
 }
 
+- (void)pauseInteractiveTransition { 
+    
+}
+
+
 @end
 
 
@@ -1023,7 +1028,7 @@ const int FrontViewPositionNone = 0xff;
 
 - (void)_getRevealWidth:(CGFloat*)pRevealWidth revealOverDraw:(CGFloat*)pRevealOverdraw forSymetry:(int)symetry
 {
-    if ( symetry < 0 ) *pRevealWidth = _rightViewRevealWidth, *pRevealOverdraw = _rightViewRevealOverdraw;
+    if ( symetry < 0 ) (void)(*pRevealWidth = _rightViewRevealWidth), *pRevealOverdraw = _rightViewRevealOverdraw;
     else *pRevealWidth = _rearViewRevealWidth, *pRevealOverdraw = _rearViewRevealOverdraw;
     
     if (*pRevealWidth < 0) *pRevealWidth = _contentView.bounds.size.width + *pRevealWidth;
@@ -1455,7 +1460,7 @@ const int FrontViewPositionNone = 0xff;
     UIView *view = nil;
     
     if ( operation == SWRevealControllerOperationReplaceRearController )
-        old = _rearViewController, _rearViewController = new, view = _contentView.rearView;
+        old = _rearViewController, (void)(_rearViewController = new), view = _contentView.rearView;
     
     else if ( operation == SWRevealControllerOperationReplaceFrontController )
         old = _frontViewController, _frontViewController = new, view = _contentView.frontView;

@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		1455645B2162B262009D63AE /* setPhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455645A2162B262009D63AE /* setPhotoButton.swift */; };
 		1455645D2162B32D009D63AE /* profileReductButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455645C2162B32D009D63AE /* profileReductButton.swift */; };
-		14556481216AA7DB009D63AE /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556480216AA7DB009D63AE /* ConversationListViewController.swift */; };
 		14556483216AA992009D63AE /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556482216AA992009D63AE /* MessageModel.swift */; };
 		14556486216AA9F1009D63AE /* MessageInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14556485216AA9F1009D63AE /* MessageInterface.swift */; };
 		1455648B216AC160009D63AE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455648A216AC160009D63AE /* SWRevealViewController.m */; };
+		1455648D216AD3F2009D63AE /* ConversationsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455648C216AD3F2009D63AE /* ConversationsListViewController.swift */; };
+		1455648F216AD4A6009D63AE /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1455648E216AD4A6009D63AE /* ConversationViewController.swift */; };
 		14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C02215924B5004E5E66 /* AppDelegate.swift */; };
 		14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14840C04215924B5004E5E66 /* ProfileVC.swift */; };
 		14840C08215924B5004E5E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14840C06215924B5004E5E66 /* Main.storyboard */; };
@@ -50,12 +51,13 @@
 		104F5B7D00B71F28029E81EE /* Pods_TinkoffFinance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinkoffFinance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1455645A2162B262009D63AE /* setPhotoButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setPhotoButton.swift; sourceTree = "<group>"; };
 		1455645C2162B32D009D63AE /* profileReductButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileReductButton.swift; sourceTree = "<group>"; };
-		14556480216AA7DB009D63AE /* ConversationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		14556482216AA992009D63AE /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
 		14556485216AA9F1009D63AE /* MessageInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInterface.swift; sourceTree = "<group>"; };
 		14556488216AC15E009D63AE /* TinkoffFinance-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TinkoffFinance-Bridging-Header.h"; sourceTree = "<group>"; };
 		14556489216AC15F009D63AE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		1455648A216AC160009D63AE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1455648C216AD3F2009D63AE /* ConversationsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsListViewController.swift; sourceTree = "<group>"; };
+		1455648E216AD4A6009D63AE /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		14840BFF215924B5004E5E66 /* TinkoffFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14840C02215924B5004E5E66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		14840C04215924B5004E5E66 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
@@ -141,7 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				14840C04215924B5004E5E66 /* ProfileVC.swift */,
-				14556480216AA7DB009D63AE /* ConversationListViewController.swift */,
+				1455648C216AD3F2009D63AE /* ConversationsListViewController.swift */,
+				1455648E216AD4A6009D63AE /* ConversationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -514,9 +517,10 @@
 			files = (
 				14840C0B215924B5004E5E66 /* TinkoffFinance.xcdatamodeld in Sources */,
 				1455645D2162B32D009D63AE /* profileReductButton.swift in Sources */,
+				1455648F216AD4A6009D63AE /* ConversationViewController.swift in Sources */,
+				1455648D216AD3F2009D63AE /* ConversationsListViewController.swift in Sources */,
 				14556483216AA992009D63AE /* MessageModel.swift in Sources */,
 				1455645B2162B262009D63AE /* setPhotoButton.swift in Sources */,
-				14556481216AA7DB009D63AE /* ConversationListViewController.swift in Sources */,
 				1455648B216AC160009D63AE /* SWRevealViewController.m in Sources */,
 				14840C05215924B5004E5E66 /* ProfileVC.swift in Sources */,
 				14840C03215924B5004E5E66 /* AppDelegate.swift in Sources */,

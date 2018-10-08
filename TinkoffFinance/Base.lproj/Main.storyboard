@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BWh-go-Mla">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -84,10 +84,94 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1553" y="115"/>
+            <point key="canvasLocation" x="3431" y="373"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Y3-rh-t6P">
+            <objects>
+                <viewController id="BWh-go-Mla" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j5d-yy-yco">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="y8i-9M-OPq"/>
+                    </view>
+                    <connections>
+                        <segue destination="ZY7-oH-aj0" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="Vf0-Oq-f0R"/>
+                        <segue destination="bbW-5V-L3B" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="qsg-si-WuP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XPu-eO-kiv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1448" y="373"/>
+        </scene>
+        <!--Conversation View Controller-->
+        <scene sceneID="08v-db-oQP">
+            <objects>
+                <viewController id="bbW-5V-L3B" customClass="ConversationViewController" customModule="TinkoffFinance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="djM-Wg-gzv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sOi-t6-vDd">
+                                <rect key="frame" x="0.0" y="20" width="320" height="77"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZI-5p-FPr">
+                                        <rect key="frame" x="12" y="47" width="24" height="18"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="18" id="EKT-hC-5RH"/>
+                                            <constraint firstAttribute="width" constant="24" id="EYt-GZ-nZ3"/>
+                                        </constraints>
+                                        <state key="normal" image="chatBurger"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tz1-TG-ftw">
+                                        <rect key="frame" x="139" y="45.5" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.29019607843137252" green="0.30196078431372547" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="77" id="Q0g-Kj-KyC"/>
+                                    <constraint firstItem="PZI-5p-FPr" firstAttribute="leading" secondItem="sOi-t6-vDd" secondAttribute="leading" constant="12" id="UYd-yG-qTo"/>
+                                    <constraint firstAttribute="bottom" secondItem="PZI-5p-FPr" secondAttribute="bottom" constant="12" id="ZGa-BD-i3P"/>
+                                    <constraint firstItem="tz1-TG-ftw" firstAttribute="centerY" secondItem="PZI-5p-FPr" secondAttribute="centerY" id="ywF-Qp-JhB"/>
+                                    <constraint firstItem="tz1-TG-ftw" firstAttribute="centerX" secondItem="sOi-t6-vDd" secondAttribute="centerX" id="zO5-II-nfC"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="sOi-t6-vDd" firstAttribute="trailing" secondItem="ifY-AP-EcD" secondAttribute="trailing" id="Re2-lO-doy"/>
+                            <constraint firstItem="sOi-t6-vDd" firstAttribute="top" secondItem="ifY-AP-EcD" secondAttribute="top" id="S3Z-n9-LUL"/>
+                            <constraint firstItem="sOi-t6-vDd" firstAttribute="leading" secondItem="ifY-AP-EcD" secondAttribute="leading" id="pZL-VR-FB2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ifY-AP-EcD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2gh-J7-q6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2441.25" y="730.9859154929577"/>
+        </scene>
+        <!--Conversations List View Controller-->
+        <scene sceneID="NlI-8F-qPT">
+            <objects>
+                <viewController id="ZY7-oH-aj0" customClass="ConversationsListViewController" customModule="TinkoffFinance" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6dg-SR-xOD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="KnM-PW-Hnx"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o5T-u3-dYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2444" y="-27"/>
         </scene>
     </scenes>
     <resources>
+        <image name="chatBurger" width="40" height="40"/>
         <image name="placeholder-user" width="200" height="200"/>
         <image name="slr-camera-2" width="85" height="85"/>
     </resources>
